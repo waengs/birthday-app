@@ -174,7 +174,7 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
           title="Keyboard"
           description="hehehe hopefully kucinggnya ndaa banyakk ganggu andaa pas lagii mainn."
           emoji="⌨️"
-          image="/2040keyboard.PNG"
+          image="2040keyboard.PNG"
           onClose={() => setShowKeyboard(false)}
         />
       )}
@@ -185,7 +185,7 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
           title="Mouse"
           description="Wah sayaangkuu, mouseenyaa dimakann kuciing."
           emoji="🖱️"
-          image="/2040mouse.PNG"
+          image="2040mouse.PNG"
           onClose={() => setShowMouse(false)}
         />
       )}
@@ -197,7 +197,7 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
           description="This us at the beach, I don't know why it's a beach again, 
           Jkt doesn't even have a good beach, jd mungkin ini pas liburan gt, good beach, good vibes, even better company."
           emoji="📸"
-          image="/2040photo.PNG"
+          image="2040photo.PNG"
           onClose={() => setShowPhoto(false)}
         />
       )}
@@ -208,7 +208,7 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
           title="Our Window View"
           description="Ini ceritaanya sudaa dirumahh and this window overlooks our backyardd, ada hammock, we're successful like that reall."
           emoji="🪟"
-          image="/2040window.PNG"
+          image="2040window.PNG"
           onClose={() => setShowWindow(false)}
         />
       )}

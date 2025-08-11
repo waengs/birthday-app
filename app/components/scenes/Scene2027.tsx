@@ -38,7 +38,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
     <div className="w-full h-screen overflow-hidden relative">
       {/* 2027bg - Background image */}
       <img 
-        src="/2027bg.PNG" 
+        src="2027bg.PNG" 
         alt="2027 Background" 
         className="absolute inset-0 w-full h-full object-cover"
       />
@@ -46,7 +46,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
       {/* 2027laptop - Laptop image */}
       <div className="absolute top-[27%] left-1/4 transform -translate-x-1/2 z-20">
         <img 
-          src="/2027laptop.PNG" 
+          src="2027laptop.PNG" 
           alt="2027 Laptop" 
           className="w-80 scale-215 cursor-pointer transform hover:scale-220 transition-transform duration-200"
           onClick={() => {
@@ -59,7 +59,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
       {/* 2027cal - Calendar image */}
       <div className="absolute bottom-[30%] right-[32%] z-20">
         <img 
-          src="/2027cal.PNG" 
+          src="2027cal.PNG" 
           alt="2027 Calendar" 
           className="w-40 scale-260 cursor-pointer transform hover:scale-265 transition-transform duration-200"
           onClick={() => {
@@ -72,7 +72,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
       {/* 2027keyboard - Keyboard image */}
       <div className="absolute bottom-[5%] left-[28%] transform -translate-x-1/2 z-20">
         <img 
-          src="/2027keyboard.PNG" 
+          src="2027keyboard.PNG" 
           alt="2027 Keyboard" 
           className="w-96 scale-200 cursor-pointer transform hover:scale-205 transition-transform duration-200"
           onClick={() => {
@@ -85,7 +85,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
       {/* 2027mouse - Mouse image */}
       <div className="absolute bottom-[5%] left-[55%] z-20">
         <img 
-          src="/2027mouse.PNG" 
+          src="2027mouse.PNG" 
           alt="2027 Mouse" 
           className="w-24 scale-200 cursor-pointer transform hover:scale-205 transition-transform duration-200"
           onClick={() => {
@@ -98,7 +98,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
       {/* 2027photo - Photo image */}
       <div className="absolute bottom-[31%] left-[83%] z-20">
         <img 
-          src="/2027photo.PNG" 
+          src="2027photo.PNG" 
           alt="2027 Photo" 
           className="w-48 scale-120 cursor-pointer transform hover:scale-125 transition-transform duration-200"
           onClick={() => {
@@ -111,7 +111,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
       {/* 2027tab - Tablet image */}
       <div className="absolute bottom-[8%] right-[7%] z-20">
         <img 
-          src="/2027tab.PNG" 
+          src="2027tab.PNG" 
           alt="2027 Tablet" 
           className="w-36 scale-200 cursor-pointer transform hover:scale-205 transition-transform duration-200"
           onClick={() => {
@@ -124,7 +124,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
       {/* 2027window - Window image */}
       <div className="absolute top-[20%] right-[15%] z-10">
         <img 
-          src="/2027window.PNG" 
+          src="2027window.PNG" 
           alt="2027 Window" 
           className="w-64 scale-180 cursor-pointer transform hover:scale-185 transition-transform duration-200"
           onClick={() => {
@@ -139,7 +139,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="relative">
             <img 
-              src="/2027skip.PNG" 
+              src="2027skip.PNG" 
               alt="2027 Skip Prompt" 
               className="w-screen h-screen object-contain"
             />
@@ -188,7 +188,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
           title="Keyboard"
           description="Keyboardnyaa dibawaa ke aussiee yaa caayangg, biar jd pro gamerz."
           emoji="⌨️"
-          image="/2027keyboard.PNG"
+          image="2027keyboard.PNG"
           onClose={() => setShowKeyboard(false)}
         />
       )}
@@ -199,7 +199,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
           title="Mouse"
           description="razer mouse is good, dibawaa jugaa cayangg."
           emoji="🖱️"
-          image="/2027mouse.PNG"
+          image="2027mouse.PNG"
           onClose={() => setShowMouse(false)}
         />
       )}
@@ -211,7 +211,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
           description="Sebelum ke aussie, kita bakal beli promise rings dlu kan yaa. Is a symbol, a commitment, that I will always stay loyal.
           I will love youu and onlyy youu!"
           emoji="📸"
-          image="/2027photo.PNG"
+          image="2027photo.PNG"
           onClose={() => setShowPhoto(false)}
         />
       )}
@@ -222,7 +222,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
           title="Tablet (SAMSUNG)"
           description="Real getting use out of the tablet, my bb be vv productive."
           emoji="📱"
-          image="/2027tab.PNG"
+          image="2027tab.PNG"
           onClose={() => setShowTablet(false)}
         />
       )}
@@ -234,7 +234,7 @@ export const Scene2027: React.FC<Scene2027Props> = ({ onTimeskip, onGoBack }) =>
           description="Ini gambar university wolonggong si cayaang, 
           I don't know where you'll end up going but I know that wherever you go, you'll go do some amazing things."
           emoji="🪟"
-          image="/2027window.PNG"
+          image="2027window.PNG"
           onClose={() => setShowWindow(false)}
         />
       )}

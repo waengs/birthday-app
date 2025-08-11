@@ -173,7 +173,7 @@ export const Scene2030: React.FC<Scene2030Props> = ({ onTimeskip, onGoBack }) =>
           title="Keyboard"
           description="By this time ud upgrade ygy keyboardnya with screen and knob, just how my bb likes it, nantii syyy ngassii keycaps yg lain jugaa, hopefully by this time uda bnyk yg lucu lucu yg bisa dipilih."
           emoji="⌨️"
-          image="/2030keyboard.PNG"
+          image="2030keyboard.PNG"
           onClose={() => setShowKeyboard(false)}
         />
       )}
@@ -184,7 +184,7 @@ export const Scene2030: React.FC<Scene2030Props> = ({ onTimeskip, onGoBack }) =>
           title="Mouse"
           description="Ini jg kykny uda ganti mouse bru, ioonlnow which one my bb is gonna pick but is gonna be kewl."
           emoji="🖱️"
-          image="/2030mouse.PNG"
+          image="2030mouse.PNG"
           onClose={() => setShowMouse(false)}
         />
       )}
@@ -196,7 +196,7 @@ export const Scene2030: React.FC<Scene2030Props> = ({ onTimeskip, onGoBack }) =>
           description="Ciee nikaah. hehe I don't know what I'm gonna end up wearing or what you are gonna  wear, or even where we'll end up marrying,
           ,but I know, I'm gonna be suuuperr happy when I marry you."
           emoji="📸"
-          image="/2030photo.PNG"
+          image="2030photo.PNG"
           onClose={() => setShowPhoto(false)}
         />
       )}
@@ -207,7 +207,7 @@ export const Scene2030: React.FC<Scene2030Props> = ({ onTimeskip, onGoBack }) =>
           title="Apartment view"
           description="Citylights Jakarta cakep, tp cowo saya lebihh cakep tuuw."
           emoji="🪟"
-          image="/2030window.PNG"
+          image="2030window.PNG"
           onClose={() => setShowWindow(false)}
         />
       )}

@@ -46,7 +46,7 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStart }) => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           {!imageError ? (
             <img 
-              src="/envelope.png"
+              src="envelope.png"
               alt="Envelope"
               className="w-96 h-64 cursor-pointer transform hover:scale-105 transition-transform duration-300"
               onClick={handleEnvelopeClick}

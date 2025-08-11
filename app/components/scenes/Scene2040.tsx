@@ -36,18 +36,18 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
   return (
     <div className="w-full h-screen overflow-hidden relative">
       {/* 2040bg - Background image */}
-      <img 
-        src="/2040bg.PNG" 
-        alt="2040 Background" 
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+             <img 
+         src="2040bg.PNG" 
+         alt="2040 Background" 
+         className="absolute inset-0 w-full h-full object-cover"
+       />
       
       {/* 2040laptop - Laptop image */}
       <div className="absolute top-[34%] left-[27%] transform -translate-x-1/2 z-20">
-        <img 
-          src="/2040laptop.PNG" 
-          alt="2040 Laptop" 
-          className="w-80 scale-230 cursor-pointer transform hover:scale-235 transition-transform duration-200"
+                 <img 
+           src="2040laptop.PNG" 
+           alt="2040 Laptop" 
+           className="w-80 scale-230 cursor-pointer transform hover:scale-235 transition-transform duration-200"
           onClick={() => {
             console.log('Laptop clicked!');
             setShowMessage(true);
@@ -57,10 +57,10 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
 
       {/* 2040cal - Calendar image */}
       <div className="absolute top-[14.5%] right-[15%] z-20">
-        <img 
-          src="/2040cal.PNG" 
-          alt="2040 Calendar" 
-          className="w-40 scale-220 cursor-pointer transform hover:scale-225 transition-transform duration-200"
+                 <img 
+           src="2040cal.PNG" 
+           alt="2040 Calendar" 
+           className="w-40 scale-220 cursor-pointer transform hover:scale-225 transition-transform duration-200"
           onClick={() => {
             console.log('Calendar clicked!');
             handleCalendarClick();
@@ -70,10 +70,10 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
 
       {/* 2040keyboard - Keyboard image */}
       <div className="absolute bottom-[5%] left-[28%] transform -translate-x-1/2 z-20">
-        <img 
-          src="/2040keyboard.PNG" 
-          alt="2040 Keyboard" 
-          className="w-96 scale-200 cursor-pointer transform hover:scale-205 transition-transform duration-200"
+                 <img 
+           src="2040keyboard.PNG" 
+           alt="2040 Keyboard" 
+           className="w-96 scale-200 cursor-pointer transform hover:scale-205 transition-transform duration-200"
           onClick={() => {
             console.log('Keyboard clicked!');
             setShowKeyboard(true);
@@ -83,10 +83,10 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
 
       {/* 2040mouse - Mouse image */}
       <div className="absolute bottom-[5%] left-[59%] z-20">
-        <img 
-          src="/2040mouse.PNG" 
-          alt="2040 Mouse" 
-          className="w-24 scale-200 cursor-pointer transform hover:scale-205 transition-transform duration-200"
+                 <img 
+           src="2040mouse.PNG" 
+           alt="2040 Mouse" 
+           className="w-24 scale-200 cursor-pointer transform hover:scale-205 transition-transform duration-200"
           onClick={() => {
             console.log('Mouse clicked!');
             setShowMouse(true);
@@ -96,10 +96,10 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
 
       {/* 2040photo - Photo image */}
       <div className="absolute bottom-[4%] left-[80%] z-20">
-        <img 
-          src="/2040photo.PNG" 
-          alt="2040 Photo" 
-          className="w-48 scale-140 cursor-pointer transform hover:scale-145 transition-transform duration-200"
+                 <img 
+           src="2040photo.PNG" 
+           alt="2040 Photo" 
+           className="w-48 scale-140 cursor-pointer transform hover:scale-145 transition-transform duration-200"
           onClick={() => {
             console.log('Photo clicked!');
             setShowPhoto(true);
@@ -109,10 +109,10 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
 
       {/* 2040window - Window image */}
       <div className="absolute bottom-[64.9%] right-[70%] z-10">
-        <img 
-          src="/2040window.PNG" 
-          alt="2040 Window" 
-          className="w-64 scale-400 cursor-pointer transform hover:scale-405 transition-transform duration-200"
+                 <img 
+           src="2040window.PNG" 
+           alt="2040 Window" 
+           className="w-64 scale-400 cursor-pointer transform hover:scale-405 transition-transform duration-200"
           onClick={() => {
             console.log('Window clicked!');
             setShowWindow(true);
@@ -124,11 +124,11 @@ export const Scene2040: React.FC<Scene2040Props> = ({ onTimeskip, onGoBack }) =>
       {showTimeskipPrompt && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="relative">
-            <img 
-              src="/2040skip.PNG" 
-              alt="2040 Skip Prompt" 
-              className="w-screen h-screen object-contain"
-            />
+                         <img 
+               src="2040skip.PNG" 
+               alt="2040 Skip Prompt" 
+               className="w-screen h-screen object-contain"
+             />
             <div className="absolute top-[10%] right-[10%]">
               <div className="flex space-x-4">
                 {onGoBack && (

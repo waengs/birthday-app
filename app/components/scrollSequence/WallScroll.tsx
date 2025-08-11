@@ -10,11 +10,11 @@ export const WallScroll: React.FC<WallScrollProps> = ({ onComplete }) => {
   const [allPhotosShown, setAllPhotosShown] = useState(false);
 
   const photos = [
-    { src: '/photo1.JPG', title: 'Happy Birthday', year: '2025', alt: 'Birthday Photo' },
-    { src: '/photo2.JPG', title: 'Promise Rings', year: '2027', alt: 'Promise Rings Photo' },
-    { src: '/photo3.PNG', title: 'Graduation', year: '2028', alt: 'Graduation Photo' },
-    { src: '/photo4.JPG', title: 'Wedding', year: '2030', alt: 'Wedding Photo' },
-    { src: '/photo5.PNG', title: 'Beach Vacay', year: '2040', alt: 'Beach Vacay Photo' }
+    { src: 'photo1.JPG', title: 'Happy Birthday', year: '2025', alt: 'Birthday Photo' },
+    { src: 'photo2.JPG', title: 'Promise Rings', year: '2027', alt: 'Promise Rings Photo' },
+    { src: 'photo3.PNG', title: 'Graduation', year: '2028', alt: 'Graduation Photo' },
+    { src: 'photo4.JPG', title: 'Wedding', year: '2030', alt: 'Wedding Photo' },
+    { src: 'photo5.PNG', title: 'Beach Vacay', year: '2040', alt: 'Beach Vacay Photo' }
   ];
 
   useEffect(() => {
